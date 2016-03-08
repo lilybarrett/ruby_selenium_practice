@@ -21,4 +21,5 @@ puts "Test Passed 2" if wait.until {
 }
 
 puts "Page title is #{driver.title}"
+
 driver.quit
